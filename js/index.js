@@ -6,7 +6,7 @@ $(function(){
       centerMode: false,
       focusOnSelect: true,
        mobileFirst: true,
-      arrows: false,
+      arrows: true,
       infinite:false,
        responsive: [
            {

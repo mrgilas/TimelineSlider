@@ -1,16 +1,30 @@
+.activeline {
+    margin-top: 5px;
+    width: 78%;
+    height: 5px;
+    background-color: #006285;
+}
+
+.bg-white {
+    background: white
+}
+
 .title {
     font-size: 38px;
     color: #fff;
     font-weight: 300;
 }
 
+.timeline-nav {
+    margin-top: -39px;
+    width: 78%;
+    overflow-x: hidden;
+}
+
 .timeline-nav__item {
-    width: 100%;
     text-align: center;
-    opacity: 0.5;
-    background: transparent;
-    color: #70abbb;
-    margin: 35px 25px !important;
+    color: #90d4e7;
+    margin: 35px 0px !important;
     position: relative;
     font-size: 14px;
     line-height: 28px;
@@ -26,10 +40,9 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #70abbb;
+    height: 5px;
+    width: 100%;
+    background-color: #b6dce7;
     transition: .2s;
 }
 
@@ -39,6 +52,10 @@
 }
 
 .timeline-nav__item.slick-current::before {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -7px;
     background-color: #006285;
 }
 
@@ -131,32 +148,6 @@
 .timeline .slick-current .timeline-slide__content {
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slick-slider {
     position: relative;
